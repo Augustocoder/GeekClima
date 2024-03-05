@@ -6,8 +6,6 @@
 </div>
 
 ## Sobre o GeekClima
-
-GeekClima: Previsão do Tempo com Precisão e Confiança
 O GeekClima é um sistema que oferece uma API completa para consulta de previsões do tempo, utilizando dados do Centro de Previsão de Tempo e Estudos Climáticos (CPTEC). Através da integração com a CPTEC, o GeekClima garante previsões mais precisas e confiáveis para você.
 
 ## O que o GeekClima oferece:
