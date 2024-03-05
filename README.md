@@ -2,7 +2,7 @@
     🌥️ GeekClima 1.0 🌥️
 </h1>
 <div style="text-align:center">
-<img src="https://i.gifer.com/8Xa6.gif" style="border-radius: 13px" height="300">
+<img src="https://i0.wp.com/garotasnerds.com/wp-content/uploads/2018/05/arcoiris.gif" style="border-radius: 13px" height="300">
 </div>
 
 ## Sobre o GeekClima
