@@ -27,7 +27,11 @@ O GeekClima é um sistema que oferece uma API completa para consulta de previsõ
 
 ```bash
     cd local_do_arquivo
+```
+```bash
     composer install
+```
+```bash
     php artisan serve // Inicia o servidor
 ```
 
