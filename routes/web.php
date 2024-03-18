@@ -16,7 +16,7 @@ use Illuminate\Http\Request;
 */
 
 
-Route::get('/{cidade}', function (string $cidade) {
+Route::get('/cidade/{cidade}', function (string $cidade) {
     try {
         $clima = new climaController();
         $clima = $clima->verClima($cidade);

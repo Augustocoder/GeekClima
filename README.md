@@ -44,7 +44,7 @@ Para que tudo esteja de perfeita forma, é necessário criar um arquivo .env, pa
 #### Retorna a previsão do tempo da cidade informada.
 
 ```http
-  GET /${cidade}
+  GET /cidade/${cidade}
 ```
 
 | Parâmetro | Tipo     | Descrição                        |
@@ -54,21 +54,28 @@ Para que tudo esteja de perfeita forma, é necessário criar um arquivo .env, pa
 ### Exemplo:
 
 ```json
-{
-    "cidade": "Balneário Camboriú",
-    "estado": "SC",
-    "atualizado_em": "2024-03-04",
-    "clima": [
-        {
-            "data": "2024-03-05",
-            "condicao": "c",
-            "condicao_desc": "Chuva",
-            "min": 20,
-            "max": 25,
-            "indice_uv": 11
-        }
-    ]
-}
+[
+    {
+        "informacões": {
+            "cidade": "Altair",
+            "estado": "SP",
+            "atualizado_em": "2024-03-17",
+            "clima": [
+                {
+                    "data": "2024-03-18",
+                    "condicao": "pn",
+                    "condicao_desc": "Parcialmente Nublado",
+                    "min": 23,
+                    "max": 35,
+                    "indice_uv": 11
+                }
+            ]
+        },
+        "statusAtual": "☀️",
+        "temperatura": "🌡️+24°C",
+        "vento": "🌬️↖8km/h\n"
+    }
+]
 ```
 
 ## Suporte
