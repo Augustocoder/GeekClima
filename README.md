@@ -1,13 +1,11 @@
 <h1 align="center">
     🌥️ GeekClima 1.0 🌥️
 </h1>
-<div style="text-align:center">
-<img src="https://i.gifer.com/8Xa6.gif" style="border-radius: 13px" height="300">
+<div align="center">
+    <img align="center" src="https://i0.wp.com/garotasnerds.com/wp-content/uploads/2018/05/arcoiris.gif" style="border-radius: 10px" height="300">
 </div>
 
 ## Sobre o GeekClima
-
-GeekClima: Previsão do Tempo com Precisão e Confiança
 O GeekClima é um sistema que oferece uma API completa para consulta de previsões do tempo, utilizando dados do Centro de Previsão de Tempo e Estudos Climáticos (CPTEC). Através da integração com a CPTEC, o GeekClima garante previsões mais precisas e confiáveis para você.
 
 ## O que o GeekClima oferece:
@@ -29,7 +27,11 @@ O GeekClima é um sistema que oferece uma API completa para consulta de previsõ
 
 ```bash
     cd local_do_arquivo
+```
+```bash
     composer install
+```
+```bash
     php artisan serve // Inicia o servidor
 ```
 
@@ -44,7 +46,7 @@ Para que tudo esteja de perfeita forma, é necessário criar um arquivo .env, pa
 #### Retorna a previsão do tempo da cidade informada.
 
 ```http
-  GET /cidade/${cidade}
+  GET /${cidade}
 ```
 
 | Parâmetro | Tipo     | Descrição                        |
