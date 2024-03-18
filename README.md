@@ -46,7 +46,7 @@ Para que tudo esteja de perfeita forma, é necessário criar um arquivo .env, pa
 #### Retorna a previsão do tempo da cidade informada.
 
 ```http
-  GET /${cidade}
+  GET /cidade/${cidade}
 ```
 
 | Parâmetro | Tipo     | Descrição                        |
